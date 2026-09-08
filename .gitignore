@@ -1,0 +1,46 @@
+# Dependências e build
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Dados locais (SQLite do Módulo 2 não deve ser copiado aqui)
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Python (server/)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ferramentas / cache
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
