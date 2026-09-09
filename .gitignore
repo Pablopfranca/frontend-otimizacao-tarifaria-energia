@@ -9,18 +9,6 @@ dist-ssr/
 .env.*
 !.env.example
 
-# Dados locais (SQLite do Módulo 2 não deve ser copiado aqui)
-data/
-*.sqlite
-*.sqlite-wal
-*.sqlite-shm
-
-# Python (server/)
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-
 # Logs
 logs/
 *.log
